@@ -12,7 +12,7 @@ Example
 
 .. code-block:: python
 
-    from amazon_reviews.api import AmazonParseReviews
+    from amazon_reviews.parse import AmazonParseReviews
 
     product = AmazonParseReviews('B01ETPUQ6E')
     print product.average_star_rating()
